@@ -10,7 +10,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 import javax.sql.DataSource;
 
 /**
- * Select the appropriate data source according to the thread context.
+ * 根据线程上下文来选择合适的数据源
  */
 public class DynamicDataSource extends AbstractRoutingDataSource {
     private final Logger log = LoggerFactory.getLogger(this.getClass());

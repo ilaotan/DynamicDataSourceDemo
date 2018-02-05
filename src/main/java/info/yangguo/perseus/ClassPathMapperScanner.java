@@ -41,6 +41,7 @@ public class ClassPathMapperScanner extends ClassPathBeanDefinitionScanner {
     private boolean addToConfig = true;
 
     private SqlSessionFactory sqlSessionFactory;
+    //修改
     //private SqlSessionTemplate sqlSessionTemplate;
     private DynamicSqlSessionTemplate sqlSessionTemplate;
 
@@ -51,6 +52,7 @@ public class ClassPathMapperScanner extends ClassPathBeanDefinitionScanner {
     private Class<? extends Annotation> annotationClass;
 
     private Class<?> markerInterface;
+    //修改
     //private org.mybatis.spring.mapper.MapperFactoryBean mapperFactoryBean = new org.mybatis.spring.mapper.MapperFactoryBean();
     private MapperFactoryBean mapperFactoryBean = new MapperFactoryBean();
 
@@ -86,6 +88,7 @@ public class ClassPathMapperScanner extends ClassPathBeanDefinitionScanner {
         this.sqlSessionFactoryBeanName = sqlSessionFactoryBeanName;
     }
 
+    //修改
     //public void setMapperFactoryBean(org.mybatis.spring.mapper.MapperFactoryBean mapperFactoryBean) {
     //this.mapperFactoryBean = (mapperFactoryBean != null ? mapperFactoryBean : new org.mybatis.spring.mapper.MapperFactoryBean());
     //}
