@@ -1,7 +1,7 @@
 package info.yangguo.perseus;
 
 /**
- * The selected data source will be saved in the class.
+ * 线程上下文的保存,主要是为了后面的数据源选择.
  */
 public class DataSourceHolder {
     private static final String MASTER = "master";

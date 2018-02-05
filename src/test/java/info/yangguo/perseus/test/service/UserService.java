@@ -7,7 +7,7 @@ package info.yangguo.perseus.test.service;
  * Description:
  *
  */
-public interface EmployeesService {
+public interface UserService {
     void testTransaction();
     void testReadonlyTransaction();
 }

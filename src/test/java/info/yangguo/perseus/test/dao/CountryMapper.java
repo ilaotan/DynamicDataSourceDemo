@@ -32,5 +32,4 @@ import java.util.List;
 @SuppressWarnings("rawtypes")
 public interface CountryMapper {
     List<Country> selectAll();
-    List<Country> selectByCountryname(Country country);
 }
